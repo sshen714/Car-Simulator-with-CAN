@@ -128,6 +128,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.381971
       objectReference: {fileID: 0}
@@ -179,6 +183,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: -5813687060101274528, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: -4894000543190189911, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -190,7 +198,7 @@ PrefabInstance:
     - target: {fileID: 440184110634869535, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -9130586711530211351, guid: 9ad31efb76c783244b09278d8211eeb4, type: 3}
+      objectReference: {fileID: 2100000, guid: 985fa4270bc0946f09ba2453d19522b0, type: 2}
     - target: {fileID: 467481098487561926, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.5
@@ -200,17 +208,25 @@ PrefabInstance:
       value: Untitled
       objectReference: {fileID: 0}
     - target: {fileID: 1921976764746610921, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921976764746610921, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921976764746610921, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6941185487604519976, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -9130586711530211351, guid: 9ad31efb76c783244b09278d8211eeb4, type: 3}
+      objectReference: {fileID: 2100000, guid: 985fa4270bc0946f09ba2453d19522b0, type: 2}
     - target: {fileID: 8157763743704290088, guid: 08e054a24dbbd478cb8aea6c8811d6ca, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -9130586711530211351, guid: 9ad31efb76c783244b09278d8211eeb4, type: 3}
+      objectReference: {fileID: 2100000, guid: 985fa4270bc0946f09ba2453d19522b0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -321,13 +337,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128727902}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.29288834, z: -0, w: 0.95614666}
   m_LocalPosition: {x: 26, y: 0, z: -580}
   m_LocalScale: {x: 200, y: 0.1, z: 250}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -34.062, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,13 +430,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.68878716, y: 0.062603824, z: -0.7200977, w: -0.05578842}
-  m_LocalPosition: {x: -13.53, y: 1.4300008, z: 0.46999797}
+  m_LocalRotation: {x: -0.10391731, y: 0.0153586045, z: -0.99104476, w: -0.082436025}
+  m_LocalPosition: {x: -13.53, y: 1.4300008, z: 0.46999738}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 9.614, y: -632.51697, z: 540.343}
+  m_LocalEulerAnglesHint: {x: 2.727, y: -708.248, z: 530.771}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
